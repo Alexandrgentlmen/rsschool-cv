@@ -3,13 +3,13 @@
 ### Junior Frontend Developer
 
 #### Contact information:
-**Phone**: +7 981 918 18 61
-**E-mail**: agusletsov@gmail.com
-**Telegram**: @alexandr_gusletsov
-[LinkedIn](https://www.linkedin.com/in/alexandr-gusletsov-73969b251)
-[CodeWars](https://www.codewars.com/users/Alexandrgentlmen)
-[CareerHabr](https://career.habr.com/alexandrgentlmen)
-[GitHub](https://github.com/Alexandrgentlmen)
+* **Phone**: +7 981 918 18 61
+* **E-mail**: agusletsov@gmail.com
+* **Telegram**: @alexandr_gusletsov
+* [LinkedIn](https://www.linkedin.com/in/alexandr-gusletsov-73969b251)
+* [CodeWars](https://www.codewars.com/users/Alexandrgentlmen)
+* [CareerHabr](https://career.habr.com/alexandrgentlmen)
+* [GitHub](https://github.com/Alexandrgentlmen)
 
 
 
