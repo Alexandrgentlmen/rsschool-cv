@@ -47,7 +47,7 @@ I believe, that my ability to learn and to gain new skills will lead me through 
 #### Courses:
 
 * HTML and CSS Tutorials on the HTML ACADEMY (completed)
-* Javascript for beginners oh the Skillbox (completed)
+* Javascript for beginners on the Skillbox (completed)
 * RS Schools Course «JavaScript/Front-end. Stage 0» (in progress)
 * JavaScript Manual on learnjavascript.ru (in progress)
 
