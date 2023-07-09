@@ -71,16 +71,18 @@
 .footer {
   display: flex;
   align-items: center;
+  justify-content: space-around;
   background-color: #bfbfbf;
   padding: 57px;
-  padding-left: 117px;
+  padding-right: 32px;
+  padding-left: 32px;
 }
 .footer__title {
   font-size: 30px;
   font-weight: 600;
   letter-spacing: -4px;
   margin: 0;
-  margin-right: 63px;
+  margin-right: 0px;
 }
 .footer__list {
   display: flex;
