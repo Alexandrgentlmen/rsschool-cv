@@ -1,0 +1,39 @@
+.experience {
+  position: relative;
+  background-color: #d8d8d8;
+  display: flex;
+  justify-content: center;
+  padding-top: 50px;
+  padding-left: 120px;
+
+  &__list {
+    width: 40%;
+  }
+
+  &__link {
+    color: #000;
+    font-weight: 600;
+
+  }
+
+  &__title {
+    margin: 0;
+    margin-bottom: 25px;
+  }
+
+  &__about {
+    margin: 0;
+    margin-bottom: 10px;
+    width: 400px;
+  }
+}
+
+.web-site {
+  &__text {
+    font-size: 16px;
+    letter-spacing: 3px;
+    opacity: 0.6;
+    color: #fff;
+  }
+
+}
