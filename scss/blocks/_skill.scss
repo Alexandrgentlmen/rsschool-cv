@@ -1,0 +1,95 @@
+.skill {
+  padding-top: 0px;
+  text-align: left;
+  color: #fff;
+  background-color: #000;
+
+  &__text {
+    margin: 0;
+    padding-left: 56px;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+  }
+
+  .skill &__list {
+    padding-left: 56px;
+    margin-bottom: 105px;
+  }
+
+  &__item {
+    width: 20%;
+    position: relative;
+    font-size: 12px;
+    padding-bottom: 11px;
+
+    &_js {
+      &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: -17px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../img/javascript.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_ts {
+      &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: -17px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../img/typescript.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_react {
+      &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: -17px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../img/react.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_redux {
+      &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: -17px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../img/redux.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &_html {
+      &::after {
+        content: '';
+        position: absolute;
+        top: -5px;
+        right: -17px;
+        width: 20px;
+        height: 20px;
+        background-image: url('../../img/html5.svg');
+        background-size: cover;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+}
