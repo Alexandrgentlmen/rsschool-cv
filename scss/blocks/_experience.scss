@@ -1,0 +1,14 @@
+.experience {
+  position: relative;
+  background-color: #d8d8d8;
+
+}
+
+.web-site {
+  &__text {
+    font-size: 16px;
+    letter-spacing: 3px;
+    opacity: 0.6;
+    color: #fff;
+  }
+}

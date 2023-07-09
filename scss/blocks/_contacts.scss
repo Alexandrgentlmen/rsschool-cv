@@ -1,0 +1,28 @@
+.contacts {
+  padding: 65px;
+  padding-left: 57px;
+  height: 438px;
+  color: #fff;
+  background-color: #2C2C2C;
+
+  &__title {
+    font-size: 19px;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  &__text {
+    font-size: 14px;
+    margin: 0;
+    margin-bottom: 133px;
+  }
+}
+
+.email,
+.mobile {
+  font-size: 14px;
+
+  &__link {
+    color: #fff;
+  }
+}

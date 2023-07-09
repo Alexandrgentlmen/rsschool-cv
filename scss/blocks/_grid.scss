@@ -1,0 +1,9 @@
+.grid {
+  display: grid;
+  grid-template-columns: 64.5% 35.4%;
+  grid-template-rows: 1fr minmax(200px, 610px) 150px;
+  grid-template-areas:
+    "about header"
+    "experience skill"
+    "footer skill"
+}
