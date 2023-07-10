@@ -62,8 +62,12 @@
     letter-spacing: 1px;
     line-height: 26px;
     font-size: 13px;
-    font-weight: 600;
+    font-weight: 400;
     text-align: left;
+
+    &_weight {
+      font-weight: 600;
+    }
   }
 
   .about &__education {

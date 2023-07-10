@@ -1,19 +1,24 @@
 .experience {
   position: relative;
   background-color: #d8d8d8;
-  display: flex;
-  justify-content: center;
-  padding-top: 50px;
-  padding-left: 120px;
+  padding-top: 24px;
+  padding-left: 310px;
 
-  &__list {
-    width: 40%;
+  .experience &__list {
+    width: 90%;
+    margin-left: 20px;
   }
 
   &__link {
     color: #000;
     font-weight: 600;
+    display: inline-block;
+    transition: color 0.3s;
 
+    &:hover {
+      transition: color 0.3s;
+      color: #E96D09;
+    }
   }
 
   &__title {
@@ -21,10 +26,31 @@
     margin-bottom: 25px;
   }
 
+  &__item {
+    margin-bottom: 20px;
+  }
+
   &__about {
     margin: 0;
     margin-bottom: 10px;
-    width: 400px;
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 2px;
+      left: -22px;
+      width: 14px;
+      height: 14px;
+      background-image: url("../../img/plus-line-icon.svg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      fill: #000;
+    }
+
   }
 }
 
