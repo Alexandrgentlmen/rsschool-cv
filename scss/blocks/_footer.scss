@@ -71,6 +71,12 @@
 
   &__link {
     color: #000;
+    transition: color 0.3s;
+
+    &:hover {
+      transition: color 0.3s;
+      color: #E96D09;
+    }
   }
 
 }
