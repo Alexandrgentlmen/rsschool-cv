@@ -384,13 +384,12 @@
 .experience {
   position: relative;
   background-color: #d8d8d8;
-  display: flex;
-  justify-content: space-around;
   padding-top: 24px;
-  padding-left: 260px;
+  padding-left: 310px;
 }
-.experience__list {
-  width: 80%;
+.experience .experience__list {
+  width: 90%;
+  margin-left: 20px;
 }
 .experience__link {
   color: #000;
@@ -414,6 +413,19 @@
   margin-bottom: 10px;
   font-size: 14px;
   font-weight: 400;
+  position: relative;
+}
+.experience__about::after {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: -22px;
+  width: 14px;
+  height: 14px;
+  background-image: url("../../img/plus-line-icon.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  fill: #000;
 }
 
 .web-site__text {
