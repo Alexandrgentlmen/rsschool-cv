@@ -422,15 +422,17 @@
 .experience__item {
   margin-bottom: 20px;
 }
-.experience__about {
-  margin: 0;
-  margin-bottom: 10px;
-  margin-top: 10px;
-  font-size: 14px;
-  font-weight: 400;
+.experience__plus {
+  text-align: left;
+  font-size: 15px;
   position: relative;
+  transition: color 0.3s;
 }
-.experience__about::after {
+.experience__plus:hover {
+  transition: color 0.3s;
+  color: #E96D09;
+}
+.experience__plus::after {
   content: "";
   position: absolute;
   top: 2px;
@@ -440,7 +442,21 @@
   background-image: url("../img/plus-line-icon.svg");
   background-repeat: no-repeat;
   background-size: cover;
-  fill: #000;
+  transition: transform 0.4s;
+}
+.open .experience__plus::after {
+  transition: transform 0.4s;
+  transform: rotate(45deg);
+}
+.open .experience__accardeon-content {
+  display: block;
+  transition: height 0.4s;
+  height: 40px;
+}
+.experience__accardeon-content {
+  overflow: hidden;
+  transition: height 0.4s;
+  height: 0;
 }
 
 .web-site__text {
