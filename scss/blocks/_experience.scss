@@ -28,15 +28,22 @@
 
   &__item {
     margin-bottom: 20px;
+
   }
 
-  &__about {
-    margin: 0;
-    margin-bottom: 10px;
-    margin-top: 10px;
-    font-size: 14px;
-    font-weight: 400;
+  &__plus {
+    // margin: 0;
+    text-align: left;
+    // margin-bottom: 10px;
+    // margin-top: 10px;
+    font-size: 15px;
     position: relative;
+    transition: color 0.3s;
+
+    &:hover {
+      transition: color 0.3s;
+      color: #E96D09;
+    }
 
     &::after {
       content: '';
@@ -48,10 +55,27 @@
       background-image: url("../img/plus-line-icon.svg");
       background-repeat: no-repeat;
       background-size: cover;
-      fill: #000;
+      transition: transform 0.4s;
     }
-
   }
+
+  .open &__plus::after {
+    transition: transform 0.4s;
+    transform: rotate(45deg);
+  }
+
+  .open &__accardeon-content {
+    display: block;
+    transition: height 0.4s;
+    height: 40px;
+  }
+
+  &__accardeon-content {
+    overflow: hidden;
+    transition: height 0.4s;
+    height: 0;
+  }
+
 }
 
 .web-site {

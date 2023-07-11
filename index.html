@@ -3,9 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/normolize.css" type="text/css" />
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css" />
     <link rel="stylesheet" href="./css/main.css" type="text/css" />
     <link rel="stylesheet" href="./css/settings.css" type="text/css" />
+    <script src="./js/accordion.js" defer></script>
     <title>Rss stage 0</title>
   </head>
   <body class="page-body">
@@ -58,75 +59,91 @@
         <h3 class="experience__title">React App</h3>
         <ul class="experience__list list-reset">
           <li class="experience__item">
-            <p class="experience__about">
-              Photo-search browsing site. <b>Used: </b> React, Redux, CSS-HTML, RRouter 6, SC,
-              Masonry.
-            </p>
-            <a href="https://gradeskillbox.vercel.app/" class="experience__link">
-              gradeskillbox.vercel.app/
-            </a>
-            <br />
-            <a href="https://github.com/Alexandrgentlmen/gradeWorkSkillbox" class="experience__link"
-              >Go to Photo-search code...
-            </a>
-
-            <p class="experience__about">
-              Sorting table on React. <b>Used: </b> React, Redux, CSS-HTML.
-            </p>
-            <a href="https://sorting-table.vercel.app/" class="experience__link">
-              sorting-table.vercel.app/
-            </a>
-            <br />
-            <a href="https://github.com/Alexandrgentlmen/SortingTable" class="experience__link"
-              >Go to table code...
-            </a>
-
-            <p class="experience__about">
-              Our Company site. <b>Used: </b> React, Redux, CSS-HTML, RRouter6, Formik
-            </p>
-            <a href="https://antipoff-test.vercel.app/" class="experience__link">
-              antipoff-test.vercel.app/
-            </a>
-            <br />
-            <a href="https://github.com/Alexandrgentlmen/AntipoffTest" class="experience__link"
-              >Go to Our Company code...
-            </a>
+            <button class="experience__plus btn-reset" aria-expanded="false">
+              Photo-search browsing site.<br /><b>Used:</b>
+              React, Redux, CSS-HTML, RRouter 6, SC, Masonry
+            </button>
+            <div class="experience__accardeon-content" aria-hidden="true">
+              <a href="https://gradeskillbox.vercel.app/" class="experience__link">
+                gradeskillbox.vercel.app/
+              </a>
+              <br />
+              <a
+                href="https://github.com/Alexandrgentlmen/gradeWorkSkillbox"
+                class="experience__link"
+                >Go to Photo-search code...
+              </a>
+            </div>
+          </li>
+          <li class="experience__item">
+            <button class="experience__plus btn-reset" aria-expanded="false">
+              Sorting table on React.<br /><b>Used: </b> React, Redux, CSS-HTML.
+            </button>
+            <div class="experience__accardeon-content" aria-hidden="true">
+              <a href="https://sorting-table.vercel.app/" class="experience__link">
+                sorting-table.vercel.app/
+              </a>
+              <br />
+              <a href="https://github.com/Alexandrgentlmen/SortingTable" class="experience__link"
+                >Go to table code...
+              </a>
+            </div>
+          </li>
+          <li class="experience__item">
+            <button class="experience__plus btn-reset" aria-expanded="false">
+              Our Company site.<br /><b>Used: </b> React, Redux, CSS-HTML, RRouter6, Formik
+            </button>
+            <div class="experience__accardeon-content" aria-hidden="true">
+              <a href="https://antipoff-test.vercel.app/" class="experience__link">
+                antipoff-test.vercel.app/
+              </a>
+              <br />
+              <a href="https://github.com/Alexandrgentlmen/AntipoffTest" class="experience__link"
+                >Go to Our Company code...
+              </a>
+            </div>
           </li>
         </ul>
         <h3 class="experience__title">Landing</h3>
         <ul class="experience__list list-reset">
           <li class="experience__item">
-            <p class="experience__about">
-              Gravity site. <b>Used: </b> Gulp, BEM, JS, CSS-HTML-SCSS
-            </p>
-            <a
-              href="https://alexandrgentlmen.github.io/gravity.github.io/"
-              class="experience__link"
-            >
-              alexandrgentlmen/gravity.github.io/
-            </a>
-            <br />
-            <a href="https://github.com/Alexandrgentlmen/gravity.github.io" class="experience__link"
-              >Go to Gravity code...
-            </a>
+            <button class="experience__plus btn-reset" aria-expanded="false">
+              Gravity site. <br /><b>Used: </b> Gulp, BEM, JS, CSS-HTML-SCSS
+            </button>
+            <div class="experience__accardeon-content" aria-hidden="true">
+              <a
+                href="https://alexandrgentlmen.github.io/gravity.github.io/"
+                class="experience__link"
+              >
+                alexandrgentlmen/gravity.github.io/
+              </a>
+              <br />
+              <a
+                href="https://github.com/Alexandrgentlmen/gravity.github.io"
+                class="experience__link"
+                >Go to Gravity code...
+              </a>
+            </div>
           </li>
           <li class="experience__item">
-            <p class="experience__about">
-              Noidala site. <b>Used: </b> Gulp, BEM, JS, CSS-HTML-SCSS
-            </p>
-            <a
-              href="https://alexandrgentlmen.github.io/Noidala.github.io/"
-              class="experience__link"
-            >
-              alexandrgentlmen/Noidala.github.io/
-            </a>
-            <br />
-            <a
-              href="https://github.com/Alexandrgentlmen/Noidala.github.io"
-              class="experience__link"
-            >
-              Go to Noidala code ...
-            </a>
+            <button class="experience__plus btn-reset" aria-expanded="false">
+              Noidala site. <br /><b>Used: </b> Gulp, BEM, JS, CSS-HTML-SCSS
+            </button>
+            <div class="experience__accardeon-content" aria-hidden="true">
+              <a
+                href="https://alexandrgentlmen.github.io/Noidala.github.io/"
+                class="experience__link"
+              >
+                alexandrgentlmen/Noidala.github.io/
+              </a>
+              <br />
+              <a
+                href="https://github.com/Alexandrgentlmen/Noidala.github.io"
+                class="experience__link"
+              >
+                Go to Noidala code ...
+              </a>
+            </div>
           </li>
         </ul>
       </section>
